@@ -1,0 +1,13 @@
+- react-native-svg-charts foi descontinuada (ultima versão 5.4.0)
+    - com isso, react-native-svg só pode ser usada até 7.x.x. Escolhi pela ^6.5.3.
+        - A partir desse downgrade, a react-native-svg-transformer precisa ser 0.20.0, pois a partir das versões 1.0.0, não é suportado versões do react-native-svg menores que 12.
+
+    Resumo:   
+        - react-native-svg-charts: ^5.4.0 -> ^5.4.0;  
+        - react-native-svg: ^15.11.1 -> ^6.5.3;  
+        - react-native-svg-transformer: ^1.5.0 -> 0.20.0;
+
+Links:  
+https://github.com/kristerkari/react-native-svg-transformer/releases
+https://github.com/JesperLekland/react-native-svg-charts/releases
+https://github.com/software-mansion/react-native-svg/releases
